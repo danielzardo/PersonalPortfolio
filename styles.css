@@ -31,15 +31,16 @@ body {
 #welcome-section {
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 500px;
-    /*padding-bottom: 300px;*/
-    
+    /*padding-top: 500px;
+    padding-bottom: 300px;*/
     text-align: center;
     background-color: darkslategray;
 }
 .welcome-section {
-  
-    height: 100vh;
+      height: 100vh;
+}
+#welcome-section h1 {
+    padding-top: 500px;
 }
 
 h1 {
