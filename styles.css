@@ -18,46 +18,51 @@ body {
     flex-direction: row-reverse;
     
 }
-
 .nav-list > li {
     list-style-type: none;
     padding: 10px 30px 10px 30px;
     text-transform: uppercase;
     
 }
-
 .nav-list a:hover {
     background: gray;
     padding: 40px 40px 40px 40px;
   }
-#welcome {
+#welcome-section {
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 500px;
+    /*padding-bottom: 300px;*/
+    
     text-align: center;
     background-color: darkslategray;
+}
+.welcome-section {
+  
+    height: 100vh;
 }
 
 h1 {
     color: floralwhite;
     font-size: 3em;
 }
-
 h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color: rgba(216, 206, 187, 0.616);
     
 }
-
 #projects {
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 300px;
+    padding-top: 10px;
     padding-bottom: 300px;
     text-align: center;
     text-underline-position: below;
     background-color: rgb(15, 62, 105);
 
+}
+.projects-section-header {
+    color: floralwhite;
+    font-size: 1.5em;
 }
